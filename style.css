@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF7FD;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 600px;
+    /*height: 100vh;*/
+    background-color: chartreuse;
+    background-color: inherit;
+    margin: 0 auto;
+    /*padding-top: 200px;*/
+    text-align: center;
+    color: #BB99DD;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.profile-image {
+    border: solid 2px #BB99DD;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1667855929597-aa39ca9959e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.list-icon {
+    list-style-type: none;
+    margin: 20px;
+}
+
+li {
+    border: 2px solid #BB99DD;
+    text-decoration: none;
+    width: 50%;
+    margin: 25px auto;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #BB99DD;
+}
+
+.icon-container img {
+    margin: 0 2%;
+}
